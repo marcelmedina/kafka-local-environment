@@ -1,0 +1,10 @@
+PRODUCER demo-local
+topic: source.address.private.dev
+key: {{random.number}}
+{
+    "number": "{{random.number}}",
+    "street": "{{address.streetName}}",
+    "city": "{{address.city}}",
+    "state": "{{address.state}}",
+    "zip": "{{address.zipCode}}"
+}

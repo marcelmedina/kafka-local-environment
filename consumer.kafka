@@ -1,0 +1,4 @@
+CONSUMER demo-local
+topic: source.address.private.dev
+partitions: 0
+from: earliest
